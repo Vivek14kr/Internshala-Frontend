@@ -1,0 +1,35 @@
+
+.notess {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 550px;
+  grid-row-gap: 50px;
+  margin-top: 5%;
+  padding:"2%";
+  margin:50px
+}
+
+.special_modal .modal-content {
+  background-color: #000;
+  color: #fff;
+  border:"1px solid white";
+  padding:"1%"
+}
+
+
+
+@media (max-width:500px) {
+  .notess {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 50px;
+  margin-top: 5%;
+  margin-left:8%;
+}
+
+
+}
+@media  (min-width: 501px) and (max-width: 1023px) {
+
+}

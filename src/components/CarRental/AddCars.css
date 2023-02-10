@@ -1,0 +1,40 @@
+
+.notes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 150px;
+  grid-row-gap: 150px;
+  margin-top: 5%;
+  padding:"2%";
+  margin:50px
+}
+.special_modal .modal-content {
+  background-color: #000;
+  color: #fff;
+  border:"1px solid white";
+  padding:"1%"
+}
+
+
+
+@media (max-width: 767px) {
+  .notes {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  margin-top: 5%;
+}
+
+
+}
+@media  (min-width: 768px) and (max-width: 1023px) {
+  .notes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  margin-top: 5%;
+}
+
+}
